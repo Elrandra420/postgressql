@@ -1,0 +1,1 @@
+SELECT pstate || 'HAS THE CITY' || pcity AS "TOWNS" FROM people ORDER BY pstate ASC, pcity DESC;
