@@ -1,0 +1,1 @@
+SELECT pfirstname, plastname, ppoints, pdob FROM people WHERE ppoints > 2500;
