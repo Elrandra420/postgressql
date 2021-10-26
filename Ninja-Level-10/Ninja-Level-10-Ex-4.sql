@@ -1,0 +1,1 @@
+SELECT pfirstname, plastname, pdob FROM people WHERE pdob < CAST('now' AS TIME) - CAST('10 years' AS INTERVAL);
