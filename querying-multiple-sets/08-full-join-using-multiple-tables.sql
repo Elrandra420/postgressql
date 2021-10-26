@@ -1,0 +1,1 @@
+SELECT customers.cname AS "customers", movies.mname AS "Title" FROM (customers JOIN rentals USING(cid)) JOIN movies USING(mid);
