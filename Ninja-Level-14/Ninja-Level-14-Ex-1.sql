@@ -1,0 +1,1 @@
+SELECT pfirstname, plastname, ppoints FROM people WHERE ppoints > (Select AVG(ppoints) FROM people);
